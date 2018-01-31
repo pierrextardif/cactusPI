@@ -11,7 +11,7 @@ There is a second part of the project consisting in the parsing of the frames, w
 ![Image of the result](https://github.com/pierrextardif/cactusPI/blob/master/result.gif)
 
 Results of the first iteration of the program : 
-![VIDEO](https://vimeo.com/246690522)
+[VIDEO](https://vimeo.com/246690522)
 
 
 The program generates 2 *json files* per frames, with around 10 to 40 frames per seconds.
@@ -43,17 +43,17 @@ You should now have a ofXSimpleSerial folder in your addons folder.
 
 
 
-			//----------------------------------------------------------------------------------//
-			//      			                                                      			//
-			//				physical mini jack   |     arduino      |   serial msg				// 
-			//				   on the synth :    |  analog port :   |       name :				//
-			//                                                            						//
-			//      			dynamic         ->        0         ->        d       			//
-			//      			Slope           ->        1         ->        s       			//
-			//      			random Value    ->        2         ->        r       			//
-			//      			EON             ->        3         ->        e       			//
-			//      			                                                      			//
-			//----------------------------------------------------------------------------------//
+			//----------------------------------------------------------------------------------------------//
+			//      			                                                      		//
+			//				physical mini jack   |     arduino      |   serial msg		// 
+			//				   on the synth :    |  analog port :   |       name :		//
+			//                                                            					//
+			//      			dynamic         ->        0         ->        d       		//
+			//      			Slope           ->        1         ->        s       		//
+			//      			random Value    ->        2         ->        r       		//
+			//      			EON             ->        3         ->        e       		//
+			//      			                                                      		//
+			//----------------------------------------------------------------------------------------------//
 
 	Each jack cable has a tension divider, resulting in a lower tension entering the arduino (mV). 
 	I used standards values for the resistors.
