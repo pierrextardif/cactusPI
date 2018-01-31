@@ -6,6 +6,8 @@ This is an **example of code** extracted from a project I finished in December 2
 The code is writen in **[Openframeworks](http://openframeworks.cc/)**, and runs on raspberry-Pi 3.
 It consists in recording *depth data* from a kinect 1414, and record electrical pulses from my modular synth.
 
+You can find it on my website : **[http://www.codingcoolsh.it](http://www.codingcoolsh.it/creativeCoding.html#0coast)**.
+
 There is a second part of the project consisting in the parsing of the frames, which is not ready yet.
 
 ![Image of the result](https://github.com/pierrextardif/cactusPI/blob/master/result.gif)
@@ -39,7 +41,7 @@ You should now have a ofXSimpleSerial folder in your addons folder.
 	From the the repository folder, open the file called `read0Coast.ino`, situed in the read0Coast folder ( directly from the root of the repository).
 	Upload it on the arduino, using the [arduino IDE](https://www.arduino.cc/en/Main/Software).
 	Plug some wires on the analog ports 0 -> 4. 
-	Here I used a make noise [0-coast]((http://www.makenoisemusic.com/synthesizers/ohcoast), cutting some jacks cables and plugged several ports on the arduino, using the following : 
+	Here I used a make noise [0-coast](http://www.makenoisemusic.com/synthesizers/ohcoast), cutting some jacks cables and plugged several ports on the arduino, using the following : 
 
 
 
