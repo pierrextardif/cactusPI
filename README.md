@@ -43,17 +43,17 @@ You should now have a ofXSimpleSerial folder in your addons folder.
 
 
 
-			//----------------------------------------------------------------------------------------------//
-			//      			                                                      		//
-			//				physical mini jack   |     arduino      |   serial msg		// 
-			//				   on the synth :    |  analog port :   |       name :		//
-			//                                                            					//
-			//      			dynamic         ->        0         ->        d       		//
-			//      			Slope           ->        1         ->        s       		//
-			//      			random Value    ->        2         ->        r       		//
-			//      			EON             ->        3         ->        e       		//
-			//      			                                                      		//
-			//----------------------------------------------------------------------------------------------//
+		//----------------------------------------------------------------------------------------------//
+		//      			                                                      		//
+		//				physical mini jack   |     arduino      |   serial msg		// 
+		//				   on the synth :    |  analog port :   |       name :		//
+		//                                                            					//
+		//      			dynamic         ->        0         ->        d       		//
+		//      			Slope           ->        1         ->        s       		//
+		//      			random Value    ->        2         ->        r       		//
+		//      			EON             ->        3         ->        e       		//
+		//      			                                                      		//
+		//----------------------------------------------------------------------------------------------//
 
 	Each jack cable has a tension divider, resulting in a lower tension entering the arduino (mV). 
 	I used standards values for the resistors.
